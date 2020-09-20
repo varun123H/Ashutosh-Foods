@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>ashuuuuu</title>
+  <style>
+    .fakeimg {
+      width: 900px;
+      height: 200px;
+      background: #aaa;
+      max-width: 100%;
+      
+    }
+
+    @import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
+
+    .social-btns .btn,
+    .social-btns .btn:before,
+    .social-btns .btn .fa {
+      -webkit-transition: all 0.35s;
+      transition: all 0.35s;
+      -webkit-transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+      transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    }
+
+    .social-btns .btn:before {
+      top: 90%;
+      left: -110%;
+    }
+
+    .social-btns .btn .fa {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+
+    .social-btns .btn.facebook:before {
+      background-color: #3b5998;
+    }
+
+    .social-btns .btn.facebook .fa {
+      color: #3b5998;
+    }
+
+    .social-btns .btn.instagram:before {
+      background-color: rgb(204, 62, 98);
+    }
+
+    .social-btns .btn.instagram .fa {
+      color: rgb(211, 55, 55);
+    }
+
+    .social-btns .btn.linkedin:before {
+      background-color: #dc4a38;
+    }
+
+    .social-btns .btn.linkedin .fa {
+      color: #dc4a38;
+    }
+
+
+
+    .social-btns .btn:focus:before,
+    .social-btns .btn:hover:before {
+      top: -10%;
+      left: -10%;
+    }
+
+    .social-btns .btn:focus .fa,
+    .social-btns .btn:hover .fa {
+      color: #fff;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+
+    .social-btns .btn {
+      display: inline-block;
+      background-color: #fff;
+      width: 68px;
+      height: 68px;
+      line-height: 90px;
+      margin: 0 10px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      border-radius: 28%;
+      box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+      opacity: 0.99;
+    }
+
+    .social-btns .btn:before {
+      content: '';
+      width: 120%;
+      height: 120%;
+      position: absolute;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    .social-btns .btn .fa {
+      font-size: 38px;
+
+    }
+
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align:center;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      
+      }
+      
+      .sidenav a:hover{
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+    
+  </style>
+</head>
+
+<body>
+  
+  <div class="jumbotron text-center"
+    style="margin-bottom:0; background-image: url(https://thumbs.dreamstime.com/b/dry-fruits-background-9742408.jpg);   background-size: cover ">
+    <h1 style=" margin-top: 70px;  "><strong>ASHUTOSH FOODS</strong></h1>
+    <p  >The best Quality in the market</p>
+  </div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Products</a>
+    <a href="#">Login</a>
+    <a href="#">Contact</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer; padding-left:10px;" onclick="openNav()">&#9776; Home</span>
+  
+ <div class="container" style="margin-top:30px;">
+    <div class="row">
+
+      <div style="margin-bottom: 50px;" class="col-12">
+   
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Sep 2, 2017</h5>
+        <div class="fakeimg">Fake Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
+        <br>
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Sep 2, 2017</h5>
+        <div class="fakeimg">Fake Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+    <h2 style="margin-bottom: 30px;">Contact us:</h2>
+    <h5 style="margin-bottom: 15px;">Mr. Mohan Parab : <a href="tel: +91
+      " target="_blank"><i class="fa fa-phone"> 9742432391
+        </i></a>
+    </h5>
+    <br>
+    <h5 style="margin-bottom: 40px;">Ashutosh Parab : <a href="tel: +918550875235"
+        target="_blank"><i class="fa fa-phone"> 8550875235</i></a>
+    </h5>
+    <div style="text-align: center;">
+    <h2 style="margin-bottom: 30px; ">Follow us :</h2>
+    <div class="social-btns"><a class="btn facebook" href="https://www.facebook.com/IEEEGIT"><i
+          class="fa fa-facebook"></i></a><a class="btn instagram"
+        href="https://www.instagram.com/ieee_git_official/?hl=en"><i class="fa fa-instagram"></i></a><a
+        class="btn linkedin" href="https://www.ieee.org/"><i class="fa fa-linkedin"></i></a>
+    </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+    integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+    crossorigin="anonymous"></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+</body>
+
+</html>
